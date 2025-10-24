@@ -6,7 +6,9 @@ def define_posicoes(linha, coluna, orientacao, tamanho):
     
 def preenche_frota(frota,nome_navio, linha, coluna, orientacao, tamanho):
     posic=define_posicoes(linha, coluna, orientacao, tamanho)
-    for nome_navio,posic in frota.items():
+    if nome_navio not in frota:
         frota[nome_navio]=posic
-    
-    return preenche_frota
+    else:
+        frota[nome_navio].append(posic)
+
+    return frota
