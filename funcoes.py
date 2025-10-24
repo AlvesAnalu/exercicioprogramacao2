@@ -9,4 +9,4 @@ def preenche_frota(frota,nome_navio,linha_navio,coluna_navio,orientacao,tamanho)
     for nome_navio,posic in frota.items():
         frota[nome_navio]=posic
 
-    return preenche_frota(frota,nome_navio,linha_navio,coluna_navio,orientacao,tamanho)
+    return preenche_frota
