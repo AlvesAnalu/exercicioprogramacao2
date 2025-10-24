@@ -7,7 +7,6 @@ frota = {
     "contratorpedeiro": [],
     "submarino": []
 }
-
 navios_info = {
     "porta-avioes": {"quantidade": 1, "tamanho": 4},
     "navio-tanque": {"quantidade": 2, "tamanho": 3},
